@@ -6,6 +6,7 @@
 
 # ::Important:: How-To
 > Power Keys
+
 Desmos-Loader has 4 different keyboard commands, each of which result in different events. Refer to the chart below to learn each:
 |Arrow Left|Arrow Right|Arrow Up|Arrow Down|
 --------------------------------------------
