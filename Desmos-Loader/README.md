@@ -12,6 +12,7 @@ Arrow Left|Arrow Right|Arrow Up|Arrow Down
 ----------|-----------|--------|------------
 |Change the page displayed by the frame (URL entry)|Show/Hide the frame|Change the size of the frame back to the default|Reload the frame (see issues)|
 
+*Fun Fact: The Desmos-Loader Frame size can be changed by dragging the bottom right-hand corner of said frame!*<br>
 # Issues
 A list of known issues is compiled below:
 1)Q: Frame not showing up<br>A: Click the Arrow Down button, then the Arrow Right.<br>
