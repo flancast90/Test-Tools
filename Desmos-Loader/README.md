@@ -8,7 +8,6 @@
 > Power Keys
 
 Desmos-Loader has 4 different keyboard commands, each of which result in different events. Refer to the chart below to learn each:
-|Arrow Left|Arrow Right|Arrow Up|Arrow Down|
---------------------------------------------
+Arrow Left|Arrow Right|Arrow Up|Arrow Down
+----------|-----------|--------|------------
 |Change the page displayed by the frame (URL entry)|Show/Hide the frame|Change the size of the frame back to the default|Reload the frame (see issues)|
---------------------------------------------
