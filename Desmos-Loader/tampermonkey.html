@@ -12,8 +12,10 @@ function addit(){
 
 document.body.innerHTML += `
 <p style="z-index:1000; font-size:0.5em; position:fixed; right:0; bottom:0;">AU=Resize; AD=LoadIt; AR=Hide; AL=NewSrc;</p>
-<iframe is="x-frame-bypass" id="desmos" src="https://www.desmos.com/calculator" style="display:none; resize:both; position:fixed; z-index:1000; left:0; top:0; width:20%; height:30%;"></iframe>
-`
+<div class="resizer" id="cont" style="display:flex; margin:0; padding:0; resize:both; overflow:hidden; position:fixed; z-index:1000; left:0; top:0; width:20%; height:30%;">
+<iframe id="desmos" class="resized" src="https://www.desmos.com/calculator" style="flex-grow:1; margin:0; padding:0; border:0; display:flex;"></iframe>
+</div>
+ `
 
 }
 
@@ -22,15 +24,15 @@ document.addEventListener('keyup', function(event){
   addit();
  }
  if (event.code == 'ArrowRight'){
-    if (document.getElementById('desmos').style.display == 'none'){
-        document.getElementById('desmos').style.display='block';
-    }else if (document.getElementById('desmos').style.display == 'block'){
-        document.getElementById('desmos').style.display='none';
+    if (document.getElementById('cont').style.display == 'none'){
+        document.getElementById('cont').style.display='flex';
+    }else if (document.getElementById('cont').style.display == 'flex'){
+        document.getElementById('cont').style.display='none';
     }
  }
  if (event.code == 'ArrowUp'){
-    document.getElementById('desmos').style.width='20%';
-    document.getElementById('desmos').style.height='30%';
+    document.getElementById('cont').style.width='20%';
+    document.getElementById('cont').style.height='30%';
  }
  if (event.code == 'ArrowLeft'){
     var newSrc = prompt('Enter a new source (Valid URL)');
