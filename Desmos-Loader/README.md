@@ -18,5 +18,5 @@ A list of known issues is compiled below:
 1)Q: Frame not showing up<br>A: Click the Arrow Down button, then the Arrow Right.<br>
 2)Q: Test Questions Cleared when Arrow Down pressed.<br>A: This is INTENDED behaviour. There is no way to recover the lost questions. The reason for this is the refreshing of the frame.<br>
 3)Q: Error when SRC changed similar to ```Cannot Connect to Site: X-Frame-Options set to 'Deny'```.<br>A: This is on a site by site basis. Your best option is to change it to an alternative source.<br><br>
-
+4)Q: Keyboard clicks not registering when pressing (Frame displayed)<br>A: Click outside of the frame, then try again.<br>
 Issue Not Listed? Ask me at <a href="mailto: flancast90@gmail.com">flancast90@gmail.com</a>, or <a href="https://github.com/flancast90/Test-Tools/issues/new">Open a New Issue</a>
