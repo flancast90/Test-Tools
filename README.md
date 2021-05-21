@@ -3,7 +3,7 @@
 
 # Instructions
 1) Download the Tampermonkey Extension <a href="https://www.tampermonkey.net/">HERE</a>
-2) When downloaded, navigate to the test tool script you would like, and copy the code of the ```tampermonkey.html``` file within it.
+2) When downloaded, navigate to the test tool script you would like, and copy the code of the ```tampermonkey.js``` file within it.
 3) After copying, please <a href="https://github.com/flancast90/Test-Tools/stargazers">Star this Repository</a> to show your appreciation. (Star Button in top right-hand corner)
 4) Next, click the Tampermonkey Extension logo, and select ```Create A New Script``` from the resulting drop-down menu
 5) Tampermonkey will open a new blank window with an area to add code: Add the code you copied earlier, and save (CTRL+S)
